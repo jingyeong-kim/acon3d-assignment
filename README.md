@@ -10,7 +10,7 @@ virtualenv venv
 source venv/bin/activate      #가상환경 종료 커맨드:deactivate
 
 # venv에서 사용되는 파이썬 버전 변경
-virtualenv venv --python=python3.8
+virtualenv venv --python=/usr/bin/python3 # python3.8설치
 
 # 모듈설치
 pip3 install -r requirements.txt
